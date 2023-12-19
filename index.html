@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Track</title>
+    <style>
+        span{
+            color: red;
+            font-weight: bold;
+        }
+        fieldset{
+            border-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .card1{
+            border:solid 1px black ;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            left: 15%;
+            top: 90%;
+            z-index: 1;
+            background-color: rgb(222, 160, 135);
+        }
+        .card2{
+            border:solid 1px black;
+            width: 110px;
+            height: 110px;
+            position: absolute;
+            left: 10%;
+            top: 80%;
+            z-index: 2;
+            background-color: rgba(127, 255, 212, 0.274);
+        }
+    </style>
+</head>
+<body>
+    <!--Module 2-->
+    <!--Class notes "Formatting texts - part 1.-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis dolores quae ducimus, maxime minus? Quasi, dolorem recusandae numquam doloribus adipisci eum, illum, laborum dolor harum facere doloremque corrupti consectetur.</p>
+    <blockquote><font>colorPrograme</font><sub>1</sub> o <mark>seu</mark> <b>fututuro</b> global<sup>*</sup> <u><i>agora</i>></u></blockquote>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, illo molestias, natus, sit praesentium molestiae amet harum enim incidunt illum perferendis officia a quae ipsa! Corrupti dolorum itaque magni at.</p>
+    <!--Class notes "Div e Span"-->
+    <div id="lateral menu">
+    <fieldset>
+        <legend>Links</legend>
+        <div id="links">
+            <ul>
+                <li><a href="">Link 1</a></li>
+                <li><a href="">Link 2</a></li>
+                <li><a href="">Link 3</a></li>
+            </ul>
+        </div>
+    </fieldset>
+    </div>
+    <p><span>Dio</span>.me</p>
+    <!--Structure the HTML page, delimiting the space.-->
+    
+    <!--Aula sobre cores:
+    -Os navegadores aceitam aproximadamente 140 nomes de cores.
+    RGB: Combinação de vermelho, verde e azul.
+    HEX: Combinação de vermelho, verde e azul, mas descrito em Hexadecimal.
+    HSL: Matiz(Hue), Saturação(Saturation) e Iluminação(Lighten). A matiz tem os valores onde 0 é vermelho, 120 verde, 240 azul.
+    RGBA: Mesmo de RGB, porém adicionado canal Alpha(Transparência)
+    HSLA: Mesmo que HSL, porém adicionado canal Alpha(Transparência)
+    Hexadecinal: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+                 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,  A,  B,  C,  D,  E,  F
+    Exemplo: #RRGGBB->  #FF0000->  255 0 0  (Os dois primeiros são vermelhos, os dois do meio são verdes e os dois últimos são azuis.)-->
+        <div class="card1"></div>
+        <div class="card2"></div>
+</body>
+</html>
